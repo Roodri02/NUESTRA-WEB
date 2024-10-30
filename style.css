@@ -133,7 +133,7 @@ body {
 }
 
 .header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.568),rgba(0,0,0.7)),url(Images/backgroundMenu.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.568),rgba(0,0,0.7)),url(Images/backgroundMenu.JPG);
     background-position: center 70%;
     background-repeat:  no-repeat;
     background-size:  cover;
