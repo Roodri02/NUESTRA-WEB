@@ -128,12 +128,12 @@ body {
 
 
 .container{
-    max-width: 1200px;
+    max-width: 100vh 100vw;
     margin: 0 auto;
 }
 
 .header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.568),rgba(0,0,0.7)),url(Images/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.568),rgba(0,0,0.7)),url(Images/backgroundMenu.jpg);
     background-position: center 70%;
     background-repeat:  no-repeat;
     background-size:  cover;
@@ -295,7 +295,7 @@ body {
     background-image: linear-gradient(
         rgba(0,0,0,0.6),
         rgba(0,0,0,0.6)),
-        url(Images/backgroundMenu.JPG);
+        url(Images/FotosNuestras/background2.jpeg);
     background-position:  center center;
     background-repeat: no-repeat;
     background-size:  cover;
@@ -357,16 +357,16 @@ body {
 }
 
 .general-2{
-    background-image: url(Images/coffe-1.jpg);
-    background-position: center center;
+    background-image: url(Images/FotosNuestras/reina.JPG);
+    background-position: center 65%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
 }
 
 .general-3{
-    background-image: url(Images/coffee-2.jpg);
-    background-position: center center;
+    background-image: url(Images/FotosNuestras/reina2.jpeg);
+    background-position: center 50%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
@@ -387,19 +387,42 @@ p{
     margin: 25px 0 45px 0;
 }
 
+.blog h2{
+    color: #F9FAFC  ;
+    margin-top: 20px;
+}
+
+.blog p{
+    color: #F9FAFC  ;
+}
+
 
 .blog{
     padding: 100px 0;
     text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('Images/FotosNuestras/background.jpg'); /* Cambia esto por la ruta de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la sección */
+    background-position: center 85%; /* Centra la imagen */
+    color: #F9FAFC; /* Cambia el color del texto si es necesario para que sea legible */
+    padding: 20px; /* Agrega un poco de espacio interno */
+    background-attachment: fixed;
+
 }
+
 
 .blog-content{
     display: flex;
     justify-content: space-between;
+    color: #F9FAFC; /* Cambia el color del texto si es necesario para que sea legible */
 }
 
 .blog-1{
     padding: 15px 55px;
+}
+
+.blog-1 p{
+    text-align: justify;
+    color: #F9FAFC; /* Cambia el color del texto si es necesario para que sea legible */
 }
 
 .blog-1 img{
@@ -410,7 +433,7 @@ p{
 
 .blog-1 h3{
     font-size: 25px;
-    color: #323337;
+    color: #F9FAFC;
 }
 
 .footer {
@@ -418,6 +441,14 @@ p{
     background-color: #000000;
 
 }
+
+.footer h2 {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 85px;
+
+}
+
 
 .footer-content {
     display: flex;
