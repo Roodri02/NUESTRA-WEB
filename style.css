@@ -495,7 +495,9 @@ p{
 
 .footer {
     padding: 100px;
-    background-color: #000000;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)),url(Images/FotosNuestras/36.jpeg);
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -503,6 +505,7 @@ p{
     padding: 10px;
     text-align: center;
     margin-bottom: 85px;
+    color: #F9FAFC;
 
 }
 
@@ -519,11 +522,12 @@ p{
     margin-bottom: 15px;
 }
 
-.link a{
+.footer p{
     font-size: 16px;
-    color: #c5c5c5;
+    color: #F9FAFC;
     display: block;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 
@@ -537,20 +541,19 @@ p{
         display: initial;
     }
 
-    .menu .navbar{
+    .menu nav{
         position: absolute;
-        top : 100%;
-        left : 0;
-        right: 0;
-        background-color: #323337;
+        top : 20%;
+        left : 40%;
+        right: -80%;
         display: none;
     }
 
-    .menu .navbar ul li{
+    .menu nav ul li{
         width: 100%;
     }
 
-    #menu:checked ~ .navbar{
+    #menu:checked ~ nav{
         display: initial;
     }
 
