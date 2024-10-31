@@ -193,21 +193,21 @@ a:hover{
 
 
 @media only screen and (max-width:1350px){
-    body{
+    main{
         width: calc(100%-20px);
         columns: 3;
     }
 }
 
 @media only screen and (max-width:950px){
-    body{
+    main{
         width: calc(100%-20px);
         columns: 2;
     }
 }
 
 @media only screen and (max-width:650px){
-    body{
+    main{
         width: calc(100%-20px);
         columns: 1;
     }
