@@ -1,6 +1,6 @@
 document.getElementById("redeem-btn").addEventListener("click", function () {
     const code = document.getElementById("gift-code").value;
-    const correctCode = "REGALO2024"; // Cambia aquí el código correcto
+    const correctCode = "NUESTRA VUELTA AL MUNDO"; // Cambia aquí el código correcto
 
     if (code === correctCode) {
         const redeemContainer = document.querySelector(".redeem-container");
