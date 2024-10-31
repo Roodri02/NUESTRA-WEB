@@ -238,11 +238,11 @@ header nav{
     background-color: #E1E2E6;
     position: relative;
     padding-top: 100px;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)),url(Images/FotosNuestras/background4.JPG);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,.4)),url(Images/FotosNuestras/background4.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    min-height: 100vh;
+    min-height: 90vh;
     align-items: center;
 }
 
@@ -269,13 +269,14 @@ header nav{
     color: #fff;
     padding: 0 250px;
     margin-bottom: 35px;
+    padding: 15px;
 }
 
 
 .coffee-group{
     display: flex;
-    margin-left: 100px;
-    margin-right: 200px;
+    margin-left: 50px;
+    margin-right: 100px;
     justify-content: space-between;
 
 }
@@ -367,7 +368,7 @@ a:hover{
 
 .services-content p{
     font-size: 16px;
-    color: #c5c5c5;
+    color: #ffffff;
     margin-bottom: 50px;
     padding: 0 100px;
 }
@@ -380,11 +381,11 @@ a:hover{
 }
 
 .services-1{
-    padding: 0 100px;
+    padding: 0 30px;
 }
 
 .services-1 img{
-    width: 25px;
+    width: 100px;
     margin-bottom: 15px;
 }
 
